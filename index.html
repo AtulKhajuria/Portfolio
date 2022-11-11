@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b5f227225f.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Atul Khajuria</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#about-me" title="About Me">About Me</a>
+        <a href="#qualifications" title="My Qualifications">Qualifications</a>
+        <a href="#hobbies" title="My Hobbies">Hobbies</a>
+        <a href="#certifications" title="My Certifications">Certifications</a>
+        <a href="#technologies" title="Technologies I know">Technologies</a>
+        <a href="#contact-me" title="Contact Me">Contact me</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="intro">
+          <img id="profileimg" src="images/atul.jpg" alt="profile picture" />
+          <h1>Hi, I'm Atul</h1>
+          <p>I am <span id="dynamic-text"></span></p>
+          <p class="social-links">
+            <a href="https://www.linkedin.com/in/atul-khajuria" target="_blank"
+              ><img
+                src="https://www.iconpacks.net/icons/2/free-icon-linkedin-logo-2430.png"
+                alt="linkedin"
+            /></a>
+            <a href="https://www.instagram.com/atulkhajuria23/" target="_blank"
+              ><img
+                src="https://www.iconpacks.net/icons/3/free-icon-instagram-logo-8869.png"
+                alt="instagram"
+            /></a>
+            <a href="https://twitter.com/Atul_Khajuria_" target="_blank"
+              ><img
+                src="https://www.iconpacks.net/icons/5/free-twitter-circle-blue-logo-icon-16617.png"
+                alt="twitter"
+            /></a>
+            <a href="mailto: atulkhajuria234@gmail.com" target="_blank"
+              ><img
+                src="https://www.iconpacks.net/icons/1/free-icon-mail-142.png"
+                alt="email"
+            /></a>
+          </p>
+        </div>
+        <div id="about-me">
+          <h2>About Me</h2>
+          <!-- <div><h2>another h2</h2></div>  .....this was only to check the direct desendent property of selector -->
+          <p>
+            An IT Engineer by Profession.<br />
+            I am 21 years old. Currently Pursuing B.Tech From KIET Group of
+            Institutions.<br />
+            This website is an attempt to share my knowledge and experience.
+          </p>
+        </div>
+        <div id="qualifications">
+          <h2>Qualtifications</h2>
+          <ul>
+            <li>
+              B.Tech From Dr. APJ Abdul Kalam Technical University, Lucknow
+            </li>
+            <li>12th from Govt Hr Sec School, Parnala</li>
+            <li>10th from Govt Hr Sec School, Parnala</li>
+          </ul>
+        </div>
+        <div id="hobbies">
+          <h2>Hobbies</h2>
+          <ul>
+            <li>Swimming</li>
+            <li>Listening to Music</li>
+            <li>Googling random things</li>
+          </ul>
+        </div>
+        <div id="certifications">
+          <h2>Certifications</h2>
+          <ul>
+            <li>
+              Business English for Cross-Cultural Communication from Coursera
+              during November’20
+            </li>
+            <li>
+              Data Structures and Performance by UC SanDiego from Coursera
+              during October’20
+            </li>
+            <li>
+              Programming Foundations with JavaScript, HTML and CSS from
+              Coursera March’20
+            </li>
+          </ul>
+        </div>
+        <div id="technologies">
+          <h2>Technologies</h2>
+          <table>
+            <tr>
+              <th>Technology</th>
+              <th>Level</th>
+            </tr>
+            <tr>
+              <td>HTML, CSS</td>
+              <td>Medium</td>
+            </tr>
+            <tr>
+              <td>JavaScript, ReactJs</td>
+              <td>Medium</td>
+            </tr>
+            <tr>
+              <td>Data Structure and Algorithms</td>
+              <td>Medium</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="contact-me">
+        <form name="contact" id="contact" method="post" data-netlify="true">
+          <h1>Contact Me</h1>
+          <div>
+            <label for="firstName">First name </label>
+            <input type="text" name="firstName" required autocomplete="off" />
+          </div>
+          <div>
+            <label for="firstName">Last name </label>
+            <input type="text" name="lastName" required autocomplete="off" />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </main>
+    <footer>Made with ❤️ by Atul Khajuria ©️2022</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

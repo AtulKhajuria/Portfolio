@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  padding: 16px;
+}
+.intro {
+  padding: 16px;
+  margin: -16px;
+  background: rgb(76, 39, 39);
+  color: white;
+  text-align: center;
+}
+#profileimg {
+  width: 400px;
+  border-radius: 10%;
+}
+.social-links img {
+  height: 30px;
+  width: 30px;
+}
+.social-links a {
+  text-decoration: none;
+  margin: auto 10px;
+}
+/* here '>' is used to select the immediate tag (descendent) that is appearing after this */
+.container > div > h2 {
+  text-align: center;
+}
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+ul,
+li {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 95vw;
+  text-align: center;
+  line-height: 2;
+  font-size: 1.5rem;
+  margin: auto 1%;
+}
+#dynamic-text {
+  color: royalblue;
+}
+form#contact {
+  max-width: 400px;
+  margin: auto;
+  padding: 16px;
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+#contact label {
+  display: block;
+  font-weight: 400;
+}
+#contact input,
+#contact textarea,
+button {
+  width: 100%;
+}
+header {
+  padding: 16px;
+  top: 0;
+  position: sticky;
+  /* border-bottom: 2px solid white; */
+  background-color: hwb(0 100% 0% / 1);
+}
+header nav > a {
+  margin: 16px;
+  text-decoration: none;
+}
+/* header nav > a:hover {
+  /* This is a Pseudo Class */
+/* background-color: #3e3030; */
+/* } */
+header nav > a:hover {
+  /* This is a pseudo class  */
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  margin: 16px;
+  border-top: 3px solid;
+  padding: 10px;
+}
