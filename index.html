@@ -11,14 +11,36 @@
     <title>Atul Khajuria</title>
   </head>
   <body>
-    <header>
+    <section class="menu">
+      <button id="close-menu">&times;</button>
       <nav>
-        <a href="#about-me" title="About Me">About Me</a>
-        <a href="#qualifications" title="My Qualifications">Qualifications</a>
-        <a href="#hobbies" title="My Hobbies">Hobbies</a>
-        <a href="#certifications" title="My Certifications">Certifications</a>
-        <a href="#technologies" title="Technologies I know">Technologies</a>
-        <a href="#contact-me" title="Contact Me">Contact me</a>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li>
+            <a href="#qualifications">Qualifications</a>
+          </li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li>
+            <a href="#certifications">Certifications</a>
+          </li>
+          <li>
+            <a href="#technologies">Technologies</a>
+          </li>
+          <li><a href="#contact-me">Contact me</a></li>
+        </ul>
+      </nav>
+    </section>
+    <header>
+      <nav class="default-nav">
+        <a href="#about-me">About Me</a>
+        <a href="#qualifications">Qualifications</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#technologies">Technologies</a>
+        <a href="#contact-me">Contact me</a>
+      </nav>
+      <nav class="mobile-nav">
+        <button id="menu-button">Menu</button>
       </nav>
     </header>
     <main>
@@ -142,5 +164,6 @@
     </main>
     <footer>Made with ❤️ by Atul Khajuria ©️2022</footer>
     <script src="script.js"></script>
+    <script src="menu.js"></script>
   </body>
 </html>
