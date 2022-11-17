@@ -94,9 +94,12 @@ header nav > a:last-child {
   /* This is a Pseudo Class */
 /* background-color: #3e3030; */
 /* } */
-header nav > a:hover {
+nav a:hover {
   /* This is a pseudo class  */
   text-decoration: underline;
+}
+nav a:visited {
+  color: royalblue;
 }
 footer {
   text-align: center;
